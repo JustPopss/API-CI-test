@@ -1,3 +1,5 @@
+![CI](https://github.com/JustPopss/API-CI-test/actions/workflows/ci.yml/badge.svg)
+
 # 🛴 API Тесты для Яндекс.Самокат
 
 ## 📋 О проекте
