@@ -18,7 +18,7 @@ jobs:
 
     steps:
     - name: Скачать код из репозитория
-      uses: actions/checkout@v4
+      uses: actions/checkout@v5
 
     - name: Установить Java 11
       uses: actions/setup-java@v5
@@ -43,4 +43,4 @@ jobs:
     - name: Задеплоить на GitHub Pages
       if: always()
       id: deployment
-      uses: actions/deploy-pages@v4
+      uses: actions/deploy-pages@v5
